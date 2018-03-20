@@ -1,5 +1,5 @@
 /*PARAMETERS:    o input_table - The table to be stacked
-              o id_column   - The column, that store the ID, the other columns will be stack along
+                 o id_column   - The column, that store the ID, the other columns will be stack along
               
   EXAMPLE: o INPUT: ID; name;   price            
                      1; apple;  12
