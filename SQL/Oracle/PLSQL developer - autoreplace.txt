@@ -1,0 +1,10 @@
+desc* = this file is an example for PLSQL Developer software autoreplace feature's input txt.
+s*    = select * from
+sc*   = select count(*) from
+sm*   = select max(*) from
+d*    = delete from
+to_   = to_date('','yyyy-mm-dd')
+at*   = alter table add ( number)
+as*   = alter session set current_schema = undergrinder
+ud_   = upper(description) like '%
+ap_   = alter user undergrinder IDENTIFIED BY _newPassword_ replace _oldPassword_
