@@ -8,7 +8,7 @@
                      
            o EXECUTE SELECT * FROM FTABLE_STACKINPUT('FRUITS','ID')
            
-           o OUTPUT: ID; COLUMN_NAME; DATE_TYPE; VALUE
+           o OUTPUT: ID; COLUMN_NAME; DATA_TYPE; VALUE
                      1;  NAME;        VARCHAR;   APPLE
                      1;  PRICE;       INTEGER;   12
                      2;  NAME         VARCHAR;   PEARL
