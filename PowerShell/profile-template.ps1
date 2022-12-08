@@ -35,7 +35,7 @@ $tg = new-object psobject -property  @{home          = "e:\undergrinder\home";
                                       transcripts    = "e:\undergrinder\powershell\transcripts\";}
 
 #The sessionlog variable hold the transcript file's location+name + Add to the 
-$sessionlog = $($tg.transcript+$env:userdomain+'-'+$env:username+'-'+(get-date -f 'yyyyMMddHHmmss')+'.log')
+$sessionlog = $($tg.transcripts+$env:userdomain+'-'+$env:username+'-'+(get-date -f 'yyyyMMddHHmmss')+'.log')
 $tg|Add-Member -NotePropertyName current_transcript -NotePropertyValue $sessionlog
 				
 				
